@@ -3,8 +3,9 @@
     <navBar/>
     <router-view/>
   </div>
-  <br><br><br><br><br><br><br><br><br>
-  <p>Louis Lourens</p>
+  <div class="content">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aut, repellendus maxime expedita ea assumenda nulla corporis sunt totam animi dignissimos. Porro repellendus odit, ducimus ipsum perspiciatis tempore ipsam illum?
+  </div>
 
 </template>
 
@@ -19,3 +20,8 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+body {
+  background: RGB(241, 244, 246)
+}
+</style>

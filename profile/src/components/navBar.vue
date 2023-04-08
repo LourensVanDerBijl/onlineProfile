@@ -2,7 +2,11 @@
     <header :class="{'scrolled-nav': scrollNav}">
         <nav>
             <div class="branding">
-                <div class="logos">TBC</div>
+                <div class="logos">
+                  <a href="mailto:lourensvdbijl@gmail.com"><img class="Social" src="../assets/gmail2.png"></a>
+                  <a href="https://www.linkedin.com/in/lourens-van-der-bijl-453a6a19b"><img class="Social" src="../assets/linkedin.png"></a>
+                  <a href="https://wa.me/27605261031/?text=Hi%20there.%20I%20am%20texting%20you,%20regarding%20your%20online%20profile...%20"><img class="Social" src="../assets/whatsapp.png"></a>
+                </div>
             </div>
             <ul v-show="!mobile" class="navigation">
                 <li><router-link class="link" :to="{name: 'Intro'}">Introduction</router-link></li>
@@ -120,7 +124,7 @@ nav {
     align-items: center;
 
     .logos{
-        width: 50px;
+        width: 120px;
         transition: .5s ease all ;
     }
    }
@@ -180,6 +184,16 @@ nav {
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
         }
     }
+  }
+}
+.Social {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+
+  &:hover {
+    padding: 1px;
+    cursor: pointer;
   }
 }
 </style>

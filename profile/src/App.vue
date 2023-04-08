@@ -13,7 +13,6 @@
 .app {
   min-height: 100vh;
   position: relative;
-  background-color: #f1f1f1;
 }
 .container {
   padding: 0 20px;
