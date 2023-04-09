@@ -56,14 +56,14 @@ export default {
     updateScroll () {
       const scrollPosition = window.scrollY
       if (scrollPosition > 50) {
-        this.scrollNav = true
+        this.scrollNav = false
         return
       }
       this.scrollNav = false
     },
     checkScreen () {
       this.windowWidth = window.innerWidth
-      if (this.windowWidth <= 750) {
+      if (this.windowWidth <= 988) {
         this.mobile = true
         return
       }
@@ -158,14 +158,14 @@ nav {
     width: 100%;
     max-width: 250px;
     height: 100%;
-    background-color: whitesmoke;
+    background-color: rgb(2, 2, 2);
     top: 0;
     left: 0;
 
     li {
         margin-left:  0;
         .link {
-            color: black;
+          color: whitesmoke;
         }
     }
    }
