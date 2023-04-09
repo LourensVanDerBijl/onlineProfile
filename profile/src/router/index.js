@@ -4,6 +4,7 @@ import Experience from '../views/ExperienceView.vue'
 import Qualifications from '../views/QualificationsView.vue'
 import Certifications from '../views/CertificationsView.vue'
 import Skills from '../views/SkillsView.vue'
+import SideDegree from '../views/SideDegreeView.vue'
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: '/CertificationsView',
     name: 'Certifications',
     component: Certifications
+  },
+  {
+    path: '/SideDegreeView',
+    name: 'SideDegree',
+    component: SideDegree
   },
   {
     path: '/SkillsView',

@@ -13,35 +13,39 @@
           <th class="Qualifications-tableTitle">Completion Date</th>
           <th class="Qualifications-tableTitle"></th>
         </tr>
-        <tr class="Qualifications-tableRow">
-          <td class="Qualifications-tableColumn">Bachelor of Science in Information Technology</td>
-          <td class="Qualifications-tableColumn">Richfield Graduate Institute of Technology (Pty) Ltd</td>
-          <td class="Qualifications-tableColumn">2021-11</td>
-          <td class="Qualifications-tableColumn">Click to view</td>
-        </tr>
+
+          <tr class="Qualifications-tableRow">
+
+            <td class="Qualifications-tableColumn">Bachelor of Science in Information Technology</td>
+            <td class="Qualifications-tableColumn">Richfield Graduate Institute of Technology (Pty) Ltd</td>
+            <td class="Qualifications-tableColumn">2021-11</td>
+            <router-link :to="{name: 'SideDegree'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
+
+          </tr>
+
         <tr class="Qualifications-tableRow">
           <td class="Qualifications-tableColumn">Workday: HCM Essential Concepts Consulting Core</td>
           <td class="Qualifications-tableColumn">Workday</td>
           <td class="Qualifications-tableColumn">2022-07</td>
-          <td class="Qualifications-tableColumn">Click to view</td>
+          <router-link :to="{name: 'SideDegree'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
         </tr>
         <tr class="Qualifications-tableRow">
           <td class="Qualifications-tableColumn">Workday: End-to-End Connectors</td>
           <td class="Qualifications-tableColumn">Workday</td>
           <td class="Qualifications-tableColumn">2023-02</td>
-          <td class="Qualifications-tableColumn">Click to view</td>
+          <router-link :to="{name: 'SideDegree'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
         </tr>
         <tr class="Qualifications-tableRow">
           <td class="Qualifications-tableColumn">Workday: Custom Integrations</td>
           <td class="Qualifications-tableColumn">Workday</td>
           <td class="Qualifications-tableColumn">2022-06</td>
-          <td class="Qualifications-tableColumn">Click to view</td>
+          <router-link :to="{name: 'SideDegree'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
         </tr>
         <tr class="Qualifications-tableRow">
           <td class="Qualifications-tableColumn">National Senior Certificate</td>
           <td class="Qualifications-tableColumn">Technology High School of Middleburg</td>
           <td class="Qualifications-tableColumn">2012-11</td>
-          <td class="Qualifications-tableColumn1">Click to view</td>
+          <router-link :to="{name: 'SideDegree'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
         </tr>
       </table><br><br><br>
       <div class="functionButtons">
@@ -58,7 +62,6 @@
 <script>
 
 import navBar from '@/components/navBar.vue'
-import PopUpDegree from '@/components/PopUpDegree.vue'
 
 export default {
   name: 'QualificationsView',
@@ -67,7 +70,8 @@ export default {
       scrollNav: null,
       mobile: null,
       mobileNav: null,
-      windowWidth: null
+      windowWidth: null,
+      component: null
     }
   },
   created () {
@@ -89,8 +93,7 @@ export default {
     }
   },
   components: {
-    navBar,
-    PopUpDegree
+    navBar
   }
 }
 </script>
@@ -110,7 +113,7 @@ body {
   width: 100%;
   font-size: 14px;
 }
-.Qualifications-tableColumn, .Qualifications-tableTitle {
+.Qualifications-tableColumn, .Qualifications-tableTitle, .Qualifications-CtableColumn {
   width: 25%;
 }
 .Qualifications-tableTitle{
@@ -118,7 +121,7 @@ body {
   font-weight: 700;
 }
 
-.Qualifications-tableRow, .Qualifications-tableColumn {
+.Qualifications-tableRow, .Qualifications-tableColumn, .Qualifications-CtableColumn {
   text-align: left;
   padding: 16px;
 }
@@ -126,17 +129,16 @@ body {
   text-align: left;
   padding: 16px;
 }
-.Qualifications-tableRow:hover {
-  color:rgb(3, 198, 216) ;
-  background-color: rgb(0, 0, 0);
-}
 
 .Qualifications-tableRow:nth-child(even) {
   background-color: #cbcaca90;
-
+}
+.Qualifications-CtableColumn {
+  font-size: 10px;
   &:hover {
-    color:rgb(3, 198, 216) ;
-  background-color: rgb(0, 0, 0);
+    background-color: black;
+    color: #00afea;
+    font-size: 18px;
   }
 }
 .functionButtons{
