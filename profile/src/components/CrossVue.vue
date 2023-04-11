@@ -30,9 +30,6 @@
                 <td class="Title">Reference:</td>
                 <td class="CrossVueTD">Heather Roney (USA Integrations Director) <a href="mailto:hroney@crossvue.com">hroney@crossvue.com</a></td>
                 <td class="space"></td>
-            </tr>
-            <tr class="CrossVueRow">
-                <td class="Title"><br><br></td>
                 <td class="CrossVueTD"></td>
             </tr>
         </table>
@@ -41,7 +38,7 @@
             <tr class="CrossVueRow">
                 <td class="btotmTitle">Description</td>
                 <td></td>
-                <td class="btotmTitle">Project and responsibilities</td>
+                <td class="btotmTitle">Projects and responsibilities</td>
             </tr>
             <tr class="CrossVueRow">
                 <td class="CrossVueTD">Delivering of quality Workday integrations for Post-Production and implementations to Workday clients in the United States. Workday is a global HCM system, and my role at CrossVue was to import data from legacy systems into Workday by using Integrations.
@@ -54,7 +51,7 @@
                         <li>SitusAMC Holdings Corporation (USA) - Creation of Financial E2E connectors with the use of ISO20022 and custom integrations. Also the creation of BIRT (Business Intelligence Reporting Tool) for Check prints. Configure the BIA2 and MTN950 inbound integrations
                             and ACH outbound integrations. Also creation of custom CIC integrations for HCM. With the use of custom integrations and reporting I also created the Positive Pay outbound integrations</li>
                         <li>Foreside Finacial Group, LLC (USA) - Successful implementations of ISO20022 ACH, Wires, and international wires<br><br><br></li>
-                        <li>Among all the intergration responsibilities, I was also responsible for liaising and advising clients to execute leading business practices. My role also included virtually communicating with vendors, clients, and fellow employees.
+                        <li>Among all the integration responsibilities, I was also responsible for liaising and advising clients to execute leading business practices. My role also included virtually communicating with vendors, clients, and fellow employees.
                         </li>
                     </ul>
                 </td>

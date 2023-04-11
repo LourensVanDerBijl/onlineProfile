@@ -23,18 +23,17 @@
                 <td class="Title">Reference:</td>
                 <td class="CrossVueTD">Mark Smith (Managing Director) <a href="mailto:mark@umbanetechnology.co.za ">mark@umbanetechnology.co.za </a></td>
                 <td class="space"></td>
-            </tr>
-            <tr class="CrossVueRow">
-                <td class="Title"><br><br></td>
+                <td class="CrossVueTD"></td>
                 <td class="CrossVueTD"></td>
             </tr>
+
         </table>
         <hr><br>
         <table>
             <tr class="CrossVueRow">
                 <td class="btotmTitle">Description</td>
                 <td></td>
-                <td class="btotmTitle">Project and responsibilities</td>
+                <td class="btotmTitle">Projects and responsibilities</td>
             </tr>
             <tr class="CrossVueRow">
                 <td class="CrossVueTD">Employed as a Team leader for the implementation team. Umbane Technology is an implemntation telecommunications contractor, that provides its services to all the major ISP in South Africa. Umbane Technology conducts Site Surveys and Microwave Installations, upgrades, and recoveries</td>

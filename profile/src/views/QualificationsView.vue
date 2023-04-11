@@ -27,25 +27,25 @@
           <td class="Qualifications-tableColumn">Workday: HCM Essential Concepts Consulting Core</td>
           <td class="Qualifications-tableColumn">Workday</td>
           <td class="Qualifications-tableColumn">2022-07</td>
-          <router-link :to="{name: 'SideDegree'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
+          <router-link :to="{name: 'SideWorkday'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
         </tr>
         <tr class="Qualifications-tableRow">
           <td class="Qualifications-tableColumn">Workday: End-to-End Connectors</td>
           <td class="Qualifications-tableColumn">Workday</td>
           <td class="Qualifications-tableColumn">2023-02</td>
-          <router-link :to="{name: 'SideDegree'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
+          <router-link :to="{name: 'SideWorkday'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
         </tr>
         <tr class="Qualifications-tableRow">
           <td class="Qualifications-tableColumn">Workday: Custom Integrations</td>
           <td class="Qualifications-tableColumn">Workday</td>
           <td class="Qualifications-tableColumn">2022-06</td>
-          <router-link :to="{name: 'SideDegree'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
+          <router-link :to="{name: 'SideWorkday'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
         </tr>
         <tr class="Qualifications-tableRow">
           <td class="Qualifications-tableColumn">National Senior Certificate</td>
           <td class="Qualifications-tableColumn">Technology High School of Middleburg</td>
           <td class="Qualifications-tableColumn">2012-11</td>
-          <router-link :to="{name: 'SideDegree'}"><td class="Qualifications-CtableColumn">Click to view</td></router-link>
+          <td class="Qualifications-tableColumn"></td>
         </tr>
       </table><br><br><br>
       <div class="functionButtons">
@@ -54,7 +54,35 @@
         </div>
     </div>
     <div v-show="mobile" class="mobile">
-      Mobile
+      <br>
+      <table class="QualificationsMob">
+        <tr>
+          <td>Bachelor of Science in Information Technology</td>
+        </tr>
+        <tr>
+          <td>Workday: HCM Essential Concepts Consulting Core</td>
+        </tr>
+        <tr>
+          <td>Workday: End-to-End Connectors</td>
+        </tr>
+        <tr>
+          <td>Workday: Custom Integrations</td>
+        </tr>
+        <tr>
+          <td>National Senior Certificate</td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../assets/Combine_Results.pdf" download>
+            <button class="next">Download</button>
+          </a></td>
+        </tr>
+      </table>
+      <div class="functionButtons">
+          <router-link :to="{name: 'Certifications'}"><button class="next">Next</button></router-link>
+        </div>
     </div>
   </div>
 </template>
@@ -106,12 +134,13 @@ body {
 }
 .notMobile{
   padding: 25px;
+  margin-top: 30px;
 }
 .Qualifications-table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  font-size: 14px;
+  font-size: 12px;
 }
 .Qualifications-tableColumn, .Qualifications-tableTitle, .Qualifications-CtableColumn {
   width: 25%;

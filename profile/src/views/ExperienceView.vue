@@ -11,32 +11,32 @@
         <div class="timeline__header">
           <div class="timeline__live">
             <div class="timeline__marker timeline__marker--live"></div>
-            <span>Work Exsperience <br><a class="sub-text">Borwse exsperience by clicking on below links</a></span>
+            <span>Work experience <br><a class="sub-text">Browse experience by clicking on below links</a></span>
 
           </div>
         </div>
         <ol class="timeline__list">
-          <li v-on:click="component = 'CrossVue'">
+          <li v-on:click="component = 'CrossVue', scrolltop() ">
             <div class="timeline__marker"></div>
             <div class="timeline__timestamp">CrossVue</div>
             <div class="timeline__body">2022 to 2023</div>
           </li>
-          <li v-on:click="component = 'VirtualResource'">
+          <li v-on:click="component = 'VirtualResource', scrolltop()">
             <div class="timeline__marker"></div>
             <div class="timeline__timestamp">Virtual Resource</div>
             <div class="timeline__body">2021 to 2022</div>
           </li>
-          <li v-on:click="component = 'MySHEQ'">
+          <li v-on:click="component = 'MySHEQ', scrolltop()">
             <div class="timeline__marker"></div>
             <div class="timeline__timestamp">MySHEQ</div>
             <div class="timeline__body">2020 to 2021</div>
           </li>
-          <li v-on:click="component = 'umbaneTechnology'">
+          <li v-on:click="component = 'umbaneTechnology', scrolltop()">
             <div class="timeline__marker"></div>
             <div class="timeline__timestamp">Umbane Technology</div>
             <div class="timeline__body">2012 to 2021</div>
           </li>
-          <li v-on:click="component = 'bootCamp'">
+          <li v-on:click="component = 'bootCamp', scrolltop()">
             <div class="timeline__marker"></div>
             <div class="timeline__timestamp">Bootcamp Dev courses</div>
             <div class="timeline__body">2019 to 2021</div>
@@ -55,7 +55,130 @@
 
 <!--Mobile View-->
     <div v-show="mobile" class="mobile">
-      Mobile
+      <br>
+      <table class="CrossVueWorkTableMob">
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1"><img class="imgCVExsprienceMob" src="../assets/crossvue.png"></td>
+          <td class="CrossVueColMob">CrossVue<br>Workday Integration Specialist <br>2022 to current<br>Remote (Full-Time)<br> </td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">Website:</td>
+          <td class="CrossVueColMob"><a href="https://www.crossvue.com/">https://www.crossvue.com/</a></td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">Reference:</td>
+          <td class="CrossVueColMob">Henry Snyman (Director) +27 84 758 1258</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">Reference:</td>
+          <td class="CrossVueColMob">Heather Roney (Director) hroney@crossvue.com</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">DESCRIPTION:</td>
+          <td class="CrossVueColMob">Delivering of quality Workday integrations for Post-Production and implementations to Workday clients in the United States. Workday is a global HCM system, and my role at CrossVue was to import data from legacy systems into Workday by using Integrations. I also built integrations from Workday to other systems (Vendor/Client systems)
+            https://www.workday.com</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">RESPONSIBILITIES:</td>
+          <td class="CrossVueColMob">Grosvenor Capital Management Holdings LLP (USA) - Creation of CCB E2E connectors for benefit vendor. Also Creation of custom integration. Completed project from start to end with a successful go-live in productions
+            SitusAMC Holdings Corporation (USA) - Creation of Financial E2E connectors with the use of ISO20022 and custom integrations. Also the creation of BIRT (Business Intelligence Reporting Tool) for Check prints. Configure the BIA2 and MTN950 inbound integrations and ACH outbound integrations. Also creation of custom CIC integrations for HCM. With the use of custom integrations and reporting I also created the Positive Pay outbound integrations
+            Foreside Finacial Group, LLC (USA) - Successful implementations of ISO20022 ACH, Wires, and international wires.
+            Among all the integration responsibilities, I was also responsible for liaising and advising clients to execute leading business practices. My role also included virtually communicating with vendors, clients, and fellow employees.</td>
+        </tr>
+      </table><br><br>
+      <table class="CrossVueWorkTableMob">
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1"><img class="imgCVExsprienceMob" src="../assets/VrImg-removebg-preview.png"></td>
+          <td class="CrossVueColMob">VirtualResource<br>Workday Reporting Specialist<br>2021 to 2022<br>Remote (Contractor)<br> </td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">Website:</td>
+          <td class="CrossVueColMob"><a href="https://www.virtualresource.org">https://www.virtualresource.org</a></td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">Reference:</td>
+          <td class="CrossVueColMob">Cristene Kruiter (Managing Director) cristene.kruiter@virtualresource.org</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">Reference:</td>
+          <td class="CrossVueColMob">Leanne Knorr (HR) leanne.knorr@virtualresource.org</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">DESCRIPTION:</td>
+          <td class="CrossVueColMob">Employed as a Reporting specialist while training Workday Integrations. VirtualResource is a company that optimizes Workday for its clients and provides post-production support
+          https://www.workday.com</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">RESPONSIBILITIES:</td>
+          <td class="CrossVueColMob">GSK Project - Working under the supervision of Vicky Micheal(a Reporting specialist), I was tasked with data correction and report reviews. I also build advanced reports with the use of calculated fields.
+          Unilever Project - Working with Teade Beltran I was tasked to independently assist clients globally with reporting queries and built requests. I created custom reports with custom notifications and fault finding on custom and matrix reports. I also created advanced calculations with the use of calculated fields, along with language translation notifications. I completed many tenant-to-tenant migrations and implemented Workday security</td>
+        </tr>
+      </table><br><br>
+      <table class="CrossVueWorkTableMob">
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1"><img class="imgCVExsprienceMob" src="../assets/mySHEQ-removebg-preview.png"></td>
+          <td class="CrossVueColMob">MySHEQ<br>Front-End Developer<br>2020 to 2021<br>Remote (Part-Time)<br> </td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">Website:</td>
+          <td class="CrossVueColMob"><a href="https://www.mysheq.com">https://www.mysheq.com</a></td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">Reference:</td>
+          <td class="CrossVueColMob">Neil Van Der Bijl (Managing Director) neil@mysheq.com</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">DESCRIPTION:</td>
+          <td class="CrossVueColMob">Employed as a Part-time Frond-End developer. MySHEQ is an online Health And Safety Managing system. The system enhances its clients to easily and accurately manage all safety-related tasks on a global scale</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">RESPONSIBILITIES:</td>
+          <td class="CrossVueColMob">Coding integrations - Working with the team I was tasked with integrating all legacy coding languages (knockout.js, React.js, etc.) to the new Vue.js (javaScript Libary)
+          Anti-cheat system - Working in a team - I assisted in creating the code for the anti-cheat system. Using Vue.js the anti-cheat system will capture random images and audio recordings of people taking health and safety online exams. The anti-cheat system will also prevent users from opening additional internet tabs or other applications.
+          Implementing Grapths - independently I was tasked with implementing amp-chart3, a JavaScript library for responsive graphs using data on the system</td>
+        </tr>
+      </table><br><br>
+      <table class="CrossVueWorkTableMob">
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1"><img class="imgCVExsprienceMob" src="../assets/Umbane2-removebg-preview.png"></td>
+          <td class="CrossVueColMob">Umbane Technology<br>Network Operations Support Team Leader<br>2012 to 2021<br>On-Site (Full-Time)<br> </td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">Reference:</td>
+          <td class="CrossVueColMob">Mark Smith (Managing Director) mark@umbanetechnology.co.za</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">DESCRIPTION:</td>
+          <td class="CrossVueColMob">Employed as a Team leader for the implementation team. Umbane Technology is an implemntation telecommunications contractor, that provides its services to all the major ISP in South Africa. Umbane Technology conducts Site Surveys and Microwave Installations, upgrades, and recoveries</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">RESPONSIBILITIES:</td>
+          <td class="CrossVueColMob">While working closely with network administrators and server engineers to deliver quality services, I also diagnose and resolve complex integrated customer issues for implementation, add-on, maintenance, and support of voice, data, VoIP, and CTI applications. I perform network operations, installations, and configurations for multiple telecommunication companies. I respond to service requests during and after business hours while maintaining an excellent attendance record. I manage quality assurance programs, including on-site evaluations, internal audits, and customer surveys</td>
+        </tr>
+      </table><br><br>
+      <table class="CrossVueWorkTableMob">
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1"><img class="imgCVExsprienceMob" src="../assets/Voluntary3-removebg-preview.png"></td>
+          <td class="CrossVueColMob">BootCamp Dev Courses<br>Front-End Assistance<br>2019 to 2021<br>Voluntary<br> </td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">Reference:</td>
+          <td class="CrossVueColMob">Ronica Singh ronica.singh80@gmail.com</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">DESCRIPTION:</td>
+          <td class="CrossVueColMob">Together with a team of sectors of information technology, we created a platform where South African developers can join. The aim of this platform is to share ideas and provide assistance to new and old developers. The network started off as a Facebook group and escalated to a Facebook page and a Whatsapp group. To enhance the learning capabilities of new developers they created an online Holiday boot camp for developers that wish to learn coding languages that were not necessarily covered in their degrees.</td>
+        </tr>
+        <tr class="CrossVueRowMob">
+          <td class="CrossVueColMob1">RESPONSIBILITIES:</td>
+          <td class="CrossVueColMob">Social Media Platform - I provide my assistance with helping to solve code-related questions on the social media platforms. I also help manage these platforms by insuring that group members follow the rules to maintain authentication of the platform's values
+BootCamp - I assisted in some of the developments for the online profile of the Bootcamp attendees.
+The BootCamp learning would have been a non-profitable program with the idea of advancing the South African Coding community. Unfortunately, due to employment circumstances, I had to leave the project before its completion.</td>
+        </tr>
+      </table><br><br>
+      <div class="functionButtons">
+          <router-link :to="{name: 'Qualifications'}"><button class="next">Next</button></router-link>
+        </div>
     </div>
   </div>
 </template>
@@ -77,7 +200,8 @@ export default {
       mobile: null,
       mobileNav: null,
       windowWidth: null,
-      component: CrossVue
+      component: CrossVue,
+      top: 0
     }
   },
   created () {
@@ -85,6 +209,9 @@ export default {
     this.checkScreen()
   },
   methods: {
+    scrolltop () {
+      window.scrollTo(0, this.top)
+    },
     toggleMobile () {
       this.mobileNav = !this.mobileNav
     },
@@ -282,5 +409,18 @@ body {
 .sub-text {
   font-size: 7px;
   color:#00afea;
+}
+.CrossVueWorkTableMob{
+  width: 100%;
+}
+.CrossVueColMob{
+  width: 70%;
+  font-size: 12px;
+}
+.CrossVueColMob1{
+  width: 30%;
+}
+.imgCVExsprienceMob{
+  width: 90%;
 }
 </style>

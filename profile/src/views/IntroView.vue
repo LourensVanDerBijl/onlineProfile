@@ -6,101 +6,178 @@
   <div class="content">
     <!--PC-->
     <div v-show="!mobile" class="notMobile">
-      <div class="Column">
+      <div class="Column1">
         <table class="PP">
           <tr>
             <td class="col1"><img class="profilePic" src="../assets/100010001-removebg-preview.png"></td>
-            <td class="intro"><u>Lourens Van Der Bijl</u><br>Workday Integrations Specilist<br>Workday Reporting specialist<br>Software Developer<br>Front-End Developer</td>
+            <td class="intro"><u>Lourens Van Der Bijl</u><br>Workday Integrations Specialist<br>Workday Reporting Specialist<br>Software Developer<br>Front-End Developer</td>
           </tr>
         </table>
         <div class="motivation">
           <br>
-          With a goal-driven and strive-for-success attitude. I bring my authentic self to the workforce, with the aim
+          With a goal-driven and strive-for-success attitude. I bring my authentic self to the workforce, to assist companies to achieve their financial and targeted goals. I specialize in implementing, updating, up-keeping,
+          and new development of modern or legacy software. I take as much pride in my appearance as I do in my work, and can
+          take responsibility and accountability for my actions. As my past learning adventures can contest I am a fast learner
+          and a high achiever. I demonstrate excellent verbal and written communication skills and can formally and professionally
+          work with company clients and stakeholders. I consider myself a good leader, that can perform
+          extremely well in a team and independently. I easily adapt to challenging situations or scenarios and dedicate
+          myself to resolving  conflict and operational blockers.
+        </div>
+      </div>
+      <div class="Column2">
+        <table class="PPInfo">
+          <tr class="two2">
+            <td class="one">FIRST NAME:</td>
+            <td class="one">Louis Lourens</td>
+          </tr>
+          <tr class="two">
+            <td class="one">LAST NAME:</td>
+            <td class="one">Van Der Bijl</td>
+          </tr>
+          <tr class="two2">
+            <td class="one">Mobile Number</td>
+            <td class="one">+27 60 526 1031</td>
+          </tr>
+          <tr class="two2">
+            <td class="one">Email Address</td>
+            <td class="one">lourensvdbijl@gmail.com</td>
+          </tr>
+          <tr class="two">
+            <td class="one">Title</td>
+            <td class="one">MR</td>
+          </tr>
+          <tr class="two2">
+            <td class="one">PROFESSIONAL TITLE</td>
+            <td class="one">Software Developer</td>
+          </tr>
+          <tr class="two">
+            <td class="one">HIGHEST EDUCATION</td>
+            <td class="one">Bachelor's Degree</td>
+          </tr>
+          <tr class="two2">
+            <td class="one">Employment Level</td>
+            <td class="one">Senior</td>
+          </tr>
+          <tr class="two">
+            <td class="one">DATE OF BIRTH</td>
+            <td class="one">1994-09-02</td>
+          </tr>
+          <tr class="two2">
+            <td class="one">NATIONALITY</td>
+            <td class="one">South African</td>
+          </tr>
+          <tr class="two">
+            <td class="one">GENDER</td>
+            <td class="one">Male</td>
+          </tr>
+          <tr class="two2">
+            <td class="one">MARITAL Status</td>
+            <td class="one">Married</td>
+          </tr>
+          <tr class="two">
+            <td class="one">Health status</td>
+            <td class="one">excellent</td>
+          </tr>
+          <tr class="two2">
+            <td class="one">Driver's Licence</td>
+            <td class="one">Yes</td>
+          </tr>
+          <tr class="two">
+            <td class="one">Current location</td>
+            <td class="one">Cape Town, South Africa</td>
+          </tr>
+          <tr class="two2">
+            <td class="one">Willing to Relocate</td>
+            <td class="one">Yes</td>
+          </tr>
+        </table>
+      </div>
+      <div class="functionButtons">
+        <router-link :to="{name: 'Experience'}"><button class="next">Next</button></router-link>
+    </div>
+ </div>
+    <!--Mobile-->
+    <div v-show="mobile" class="mobile">
+      <br>
+      <div class="IntoPicMobile">
+        <img class="ImgMobile" src="../assets/100010001-removebg-preview.png">
+      </div>
+      <div class="IntoIntroMobile">
+        <b>Lourens Van Der Bijl</b><br>Workday Integrations Specialist<br><b>Workday Reporting Specialist</b><br>Software Developer<br><b>Front-End Developer</b><br><br>
+      </div>
+      <div class="introParaMobile">
+        With a goal-driven and strive-for-success attitude. I bring my authentic self to the workforce, with the aim
           to assist companies to achieve their financial and targeted goals. I specialize in implementing, updating, up-keeping,
           and new development of modern or legacy software. I take as much pride in my appearance as I do in my work, and can
           take responsibility and accountability for my actions. As my past learning adventures can contest I am a fast learner
           and a high achiever. I demonstrate excellent verbal and written communication skills and can formally and professionally
-          work with company clients and stakeholders. I definitely consider myself as good leadership material, that can perform
+          work with company clients and stakeholders. I definitely consider myself good leadership material, that can perform
           extremely well in a team and in independent work. I easily adapt to challenging situations or scenarios and dedicate
-          myself to resolve conflict and operational blockers.
-        </div>
-      </div><br><br>
-      <div class="Column">
-        <table class="PPInfo">
-          <tr class="two">
-            <td class="one">FIRST NAME:</td>
-            <td class="two">Louis Lourens</td>
+          myself to resolving conflict and operational blockers.
+      </div>
+      <div class="introtableDivMobile">
+        <table class="IntoTableMobile">
+          <tr class="IntroTableRowMobile">
+            <td class="IntroTableTDMobile">
+              Louis Lourens
+            </td>
           </tr>
-          <tr class="two">
-            <td class="one">LAST NAME:</td>
-            <td class="two">Van Der Bijl</td>
+          <tr class="IntroTableRowMobile">
+            <td class="IntroTableTDMobile">
+              Van Der Bijl
+            </td>
           </tr>
-          <tr class="two">
-            <td class="one">Mobile Number</td>
-            <td class="two">+27 60 526 1031</td>
+          <tr class="IntroTableRowMobile">
+            <td class="IntroTableTDMobile">
+              1994-09-02
+            </td>
           </tr>
-          <tr class="two">
-            <td class="one">Email Address</td>
-            <td class="two">lourensvdbijl@gmail.com</td>
+          <tr class="IntroTableRowMobile">
+            <td class="IntroTableTDMobile">
+              Software Developer
+            </td>
           </tr>
-          <tr class="two">
-            <td class="one">Title</td>
-            <td class="two">MR</td>
+          <tr class="IntroTableRowMobile">
+            <td class="IntroTableTDMobile">
+              +27 60 526 1031
+            </td>
           </tr>
-          <tr class="two">
-            <td class="one">Proffetional Tittle</td>
-            <td class="two">Software Developer</td>
+          <tr class="IntroTableRowMobile">
+            <td class="IntroTableTDMobile">
+              lourensvdbijl@gmail.com
+            </td>
           </tr>
-          <tr class="two">
-            <td class="one">Highest Eductation</td>
-            <td class="two">Bachelor's Degree</td>
+          <tr class="IntroTableRowMobile">
+            <td class="IntroTableTDMobile">
+              CAPE TOWN, SOUTH AFRICA
+            </td>
           </tr>
-          <tr class="two">
-            <td class="one">Employment Level</td>
-            <td class="two">Senior</td>
+          <tr class="IntroTableRowMobile">
+            <td class="IntroTableTDMobile">
+              MALE
+            </td>
           </tr>
-          <tr class="two">
-            <td class="one">DATE OF BIRTH</td>
-            <td class="two">1994-09-02</td>
+          <tr class="IntroTableRowMobile">
+            <td class="IntroTableTDMobile">
+              Married
+            </td>
           </tr>
-          <tr class="two">
-            <td class="one">NAsionality</td>
-            <td class="two">South African</td>
+          <tr class="IntroTableRowMobile">
+            <td class="IntroTableTDMobile">
+              Excellent Health
+            </td>
           </tr>
-          <tr class="two">
-            <td class="one">Gendre</td>
-            <td class="two">Male</td>
-          </tr>
-          <tr class="two">
-            <td class="one">maritial Status</td>
-            <td class="two">Married</td>
-          </tr>
-          <tr class="two">
-            <td class="one">Health status</td>
-            <td>excellent</td>
-          </tr>
-          <tr class="two">
-            <td class="one">Driver's Licence</td>
-            <td class="two">Yes</td>
-          </tr>
-          <tr class="two">
-            <td class="one">Current location</td>
-            <td class="two">Cape Town, South Africa</td>
-          </tr>
-          <tr class="two">
-            <td class="one">Willing to Relocate</td>
-            <td class="two">Yes</td>
+          <tr class="IntroTableRowMobile">
+            <td class="IntroTableTDMobile">
+              Code A and B Drivers license
+            </td>
           </tr>
         </table>
+        <br><br>
+        <div class="functionButtons">
+          <router-link :to="{name: 'Experience'}"><button class="next">Next</button></router-link>
+        </div>
       </div>
- </div><br>
- <div class="functionButtons">
-        <router-link :to="{name: 'Experience'}"><button class="next">Next</button></router-link>
-    </div>
-
-    <!--Mobile-->
-    <div v-show="mobile" class="mobile">
-      Mobile
     </div>
   </div>
 </template>
@@ -161,12 +238,19 @@ body {
 }
 
 /* Create two equal columns that floats next to each other */
-.Column {
+.Column1 {
   float: left;
-  width: 47.5%;
+  width: 38%;
   margin: 15px;
-  padding: 40px;
   padding-top: 20px;
+  background-color: RGB(241, 244, 246);
+  align-items: center;
+}
+.Column2 {
+  float: left;
+  width: 55%;
+  margin: 15px;
+  padding-top: 16px;
   background-color: RGB(241, 244, 246);
   align-items: center;
 }
@@ -175,7 +259,6 @@ body {
   border-spacing: 0;
   width: 100%;
   height: 100%;
-  padding-top: 30px;
 }
 .intro{
   padding-left: 15px;
@@ -187,7 +270,7 @@ body {
 .two {
   text-align: left;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 12px;
   border-bottom: 1px dotted black;
 }
 
@@ -208,8 +291,8 @@ tr:nth-child(even) {
   width: 30%;
   background-color: black;
 }
-.two {
-  background-color: RGB(241, 244, 246);
+.one {
+  text-transform: uppercase;
 }
 .functionButtons{
     bottom: 0;
@@ -240,4 +323,26 @@ tr:nth-child(even) {
   border:none;
   color: whitesmoke;
 }
+.mobile{
+  width:100%;
+}
+.IntoPicMobile{
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.IntoIntroMobile{
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.ImgMobile{
+  width: 70%;
+}
+.introParaMobile{
+  padding: 5%;
+  width: 100%;
+  text-align: center;
+}
+
 </style>

@@ -23,9 +23,7 @@
                 <td class="Title">Reference:</td>
                 <td class="CrossVueTD">Ronica Singh <a href="mailto:ronica.singh80@gmail.com">ronica.singh80@gmail.com</a></td>
                 <td class="space"></td>
-            </tr>
-            <tr class="CrossVueRow">
-                <td class="Title"><br><br></td>
+                <td class="CrossVueTD"></td>
                 <td class="CrossVueTD"></td>
             </tr>
         </table>
@@ -34,14 +32,14 @@
             <tr class="CrossVueRow">
                 <td class="btotmTitle">Description</td>
                 <td></td>
-                <td class="btotmTitle">Project and responsibilities</td>
+                <td class="btotmTitle">Projects and responsibilities</td>
             </tr>
             <tr class="CrossVueRow">
-                <td class="CrossVueTD">Together with a team of sectors of information technology, we created a platform where South African developers can join. The aim of this platform is to share ideas and provide assistance to new and old developers. The network started off as a Facebook group and escalated to a Facebook page and a Whatsapp group. To enhance the learning capabilities of new developers they created an online Holiday boot camp for developers that wish to learn coding languages that were not necessarily covered in their degrees.</td>
+                <td class="CrossVueTD">Together with a team from various sectors of information technology, we created a platform where South African developers can join. The aim of this platform is to share ideas and provide assistance to new and old developers. The network started off as a Facebook group and escalated to a Facebook page and a Whatsapp group. To enhance the learning capabilities of new developers they created an online Holiday boot camp for developers that wish to learn coding languages that were not necessarily covered in their degrees.</td>
                 <td></td>
                 <td class="botumCrossVueTD">
                     <ul>
-                        <li>Social Media Platform - I provide my assistance with helping to solve code-related questions on the social media platforms. I also help manage these platforms by insuring that group members follow the rules to maintain authentication of the platform's values</li>
+                        <li>Social Media Platform - I provide my assistance with helping to solve code-related questions on social media platforms. I also help manage these platforms by insuring that group members follow the rules to maintain authentication of the platform's values</li>
                         <li>BootCamp - I assisted in some of the developments for the online profile of the Bootcamp attendees.<br><br></li>
                         <li>The BootCamp learning would have been a non-profitable program with the idea of advancing the South African Coding community. Unfortunately, due to employment circumstances, I had to leave the project before its completion.</li>
                     </ul>

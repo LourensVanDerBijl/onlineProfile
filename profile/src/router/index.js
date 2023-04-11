@@ -5,6 +5,8 @@ import Qualifications from '../views/QualificationsView.vue'
 import Certifications from '../views/CertificationsView.vue'
 import Skills from '../views/SkillsView.vue'
 import SideDegree from '../views/SideDegreeView.vue'
+import SideWorkday from '../views/SideWorkdayView.vue'
+import SideWorkday2 from '../views/SideWorkdayView2.vue'
 
 const routes = [
   {
@@ -31,6 +33,16 @@ const routes = [
     path: '/SideDegreeView',
     name: 'SideDegree',
     component: SideDegree
+  },
+  {
+    path: '/SideWorkdayView',
+    name: 'SideWorkday',
+    component: SideWorkday
+  },
+  {
+    path: '/SideWorkdayView2',
+    name: 'SideWorkday2',
+    component: SideWorkday2
   },
   {
     path: '/SkillsView',

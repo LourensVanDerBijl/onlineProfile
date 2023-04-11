@@ -26,20 +26,16 @@
                 <td class="Title">Website:</td>
                 <td class="CrossVueTD"><a href="https://www.mysheq.com">https://www.mysheq.com</a></td>
             </tr>
-            <tr class="CrossVueRow">
-                <td class="Title"><br><br></td>
-                <td class="CrossVueTD"></td>
-            </tr>
         </table>
         <hr><br>
         <table>
             <tr class="CrossVueRow">
                 <td class="btotmTitle">Description</td>
                 <td></td>
-                <td class="btotmTitle">Project and responsibilities</td>
+                <td class="btotmTitle">Projects and responsibilities</td>
             </tr>
             <tr class="CrossVueRow">
-                <td class="CrossVueTD">Employed as a Part-time Frond-End developer. MySHEQ is an online Health And Safety Managing system. The system enchances its clients to easily and accurately manage all safety-related tasks on a global scale</td>
+                <td class="CrossVueTD">Employed as a Part-time Frond-End developer. MySHEQ is an online Health And Safety Managing system. The system enhances its clients to easily and accurately manage all safety-related tasks on a global scale</td>
                 <td></td>
                 <td class="botumCrossVueTD">
                     <ul>
